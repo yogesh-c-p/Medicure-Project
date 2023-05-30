@@ -91,11 +91,6 @@ pipeline {
                 }
             }
         }
-        stage ("wait_for_application to come up"){
-            steps {
-              sh 'sleep 40'
-            }
-        }
         
         stage('Run the Selenium runable jar') {
             steps {
