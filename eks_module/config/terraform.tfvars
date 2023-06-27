@@ -3,7 +3,7 @@ aws_eks_cluster_config = {
       "demo-cluster" = {
 
         eks_cluster_name         = "demo-cluster1"
-        eks_subnet_ids = ["subnet-0818ca74e97d9fb99","subnet-0e54630b11b73828f"]
+        eks_subnet_ids = ["subnet-0818ca74e97d9fb99","subnet-0056808224bae551b"]
         tags = {
              "Name" =  "demo-cluster"
          }  
@@ -17,7 +17,7 @@ eks_node_group_config = {
         eks_cluster_name         = "demo-cluster"
         node_group_name          = "myeksnode"
         nodes_iam_role           = "eks-node-group-general1"
-        node_subnet_ids          = ["subnet-0818ca74e97d9fb99","subnet-0e54630b11b73828f"]
+        node_subnet_ids          = ["subnet-0818ca74e97d9fb99","subnet-0056808224bae551b"]
         tags = {
              "Name" =  "node1"
          } 
