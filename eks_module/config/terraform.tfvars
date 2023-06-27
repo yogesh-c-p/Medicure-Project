@@ -12,7 +12,7 @@ aws_eks_cluster_config = {
 
 eks_node_group_config = {
 
-  "node1" = {
+  "node2" = {
 
         eks_cluster_name         = "demo-cluster1"
         node_group_name          = "myeksnode"
