@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: medicure-test-deployment
-  namespace: tests
+  namespace: test
   labels:
     app: medicure-test-app
 spec:
@@ -27,7 +27,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: medicure-test-service
-  namespace: tests
+  namespace: test
 spec:
   selector:
     app: medicure-test-app
